@@ -7,7 +7,14 @@ const daysOfWeek = [
 ]
 
 dayOfWeek.textContent = daysOfWeek[new Date().getDay()];
-utcTime.textContent = new Date().getTime();
+
+
+setInterval(() => {
+
+    utcTime.textContent = Date.now();
+
+}, 1)
+
 username.addEventListener("click", () => {
 
       window.open("https://github.com/mayor-rhymes", "blank");
