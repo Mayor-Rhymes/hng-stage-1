@@ -8,6 +8,6 @@ All instructions were followed to the letter and this project can be viewed at t
 
 Technologies Used?
 
-- (HTML)[https://en.wikipedia.org/wiki/HTML]
-- (CSS)[https://en.wikipedia.org/wiki/CSS]
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 - (JavaScript)[https://en.wikipedia.org/wiki/JavaScript]
