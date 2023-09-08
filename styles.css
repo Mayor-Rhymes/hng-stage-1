@@ -16,8 +16,6 @@
     align-items: center;
     justify-content: center;
     font-family: "Roboto";
-    animation: fade-in 600ms ease-in-out 600ms forwards;
-    opacity: 0;
     gap: 20px;
     background-color: #faf0e6;
 
@@ -72,22 +70,3 @@ a:hover{
     
 }
 
-@keyframes fade-in {
-
-      from {
-          
-        opacity: 0;
-        width: 50%;
-
-
-
-      }
-
-
-      to {
-
-        opacity: 1;
-        width: 100%;
-        
-      }
-}
