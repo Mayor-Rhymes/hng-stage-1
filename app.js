@@ -6,8 +6,8 @@ const daysOfWeek = [
     "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",
 ]
 
-dayOfWeek.textContent += daysOfWeek[new Date().getDay()];
-utcTime.textContent += new Date().getTime();
+dayOfWeek.textContent = daysOfWeek[new Date().getDay()];
+utcTime.textContent = new Date().getTime();
 username.addEventListener("click", () => {
 
       window.open("https://github.com/mayor-rhymes", "blank");
