@@ -1,0 +1,98 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.wrapper {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    animation: fade-in 600ms ease-in-out 600ms forwards;
+    opacity: 0;
+    gap: 20px;
+
+}
+
+.slackImage{
+
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    transition: all 300ms ease-in-out 200ms;
+}
+
+.slackImage:hover{
+
+    height: 500px;
+    width: 500px;
+
+}
+
+h3{
+
+    font-size: 30px;
+    transition: all 300ms ease-in-out 300ms;
+    cursor: pointer;
+}
+
+
+h3:hover {
+
+    color: #0047ab;
+    font-size: 40px;
+    
+    
+}
+
+
+p{
+
+  font-weight: semi-bold;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    padding: 10px; 
+    border-radius: 7px;
+    transition: all  1000ms ease-out 1000ms;
+}
+
+a:hover{
+
+    background-color: blue;
+    color: white;
+    
+}
+
+@keyframes fade-in {
+
+      from {
+          
+        opacity: 0;
+        width: 50%;
+
+
+
+      }
+
+
+      to {
+
+        opacity: 1;
+        width: 100%;
+        
+      }
+}
